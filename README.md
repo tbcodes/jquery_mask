@@ -1,2 +1,2 @@
 # jquery_mask
-Source used in this video: https://youtu.be/FwTyvMVSYzw
+Source code used in this video: https://youtu.be/FwTyvMVSYzw

@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet"  href="style_jquery.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+        <script type="text/javascript" src="jquery_formato.js"></script>
+               
+    </head>
+    <body>
+        <h2>
+            Working with Jquery Masks
+        </h2>
+
+        
+        <div class="id">
+        	<label for="myid">ID:</label>
+        	<input type="text" name="ID" id="myid" required><br>
+        </div>
+        <div class="tel">
+        	<label for="phone">Phone:</label>
+        	<input type="text" name="phone" id="phone" required><br>
+        </div> 
+        <div class="birthday">
+                <label for="dob">Date of Birth:</label>
+                <input type="text" name="date of birth" id="dob" placeholder="DD/MM/YYYY" required><br>
+        </div> 
+        <div class="cc">
+                <label for="credit_card">Visa or MasterCard Number:</label>
+                <input type="text" name="credit card" id="credit_card" required><br>
+        </div> 
+
+
+        <div class="fixed">
+                <label for="subscribe">Don't forget to subscribe!</label>
+                <form action="https://www.youtube.com/user/LearnEnglishReal/videos">
+                    <input type="submit" value="Go to Truzz Blogg Videos" />
+                </form>
+        </div> 
+        <div class="submit_btn">
+            <input type="submit" value="Submit Information ">
+        </div>
+   
+    </body>
+    
+</html>
